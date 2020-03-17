@@ -11,7 +11,7 @@ class CashRegister
   end
 
   def apply_discount
-    total_dis = (add_item*(@discount/100.00)).round(2)
+    total_dis = (@total*(@discount/100.00)).round(2)
     @total -= total_dis
     puts "After the discount, the total comes to $#{@total}."
   end
