@@ -10,6 +10,9 @@ class CashRegister
     @total += (price*quantity).round(2)
   end
 
+  def apply_discount
+    @total = (@total*(@discount/100.)).round(2)
+  end
 
 
 end
