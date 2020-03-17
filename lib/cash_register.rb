@@ -1,7 +1,7 @@
 class CashRegister
   attr_accessor :item, :customer
 
-  def initialize(customer="non-employee")
+  def initialize(discount=20)
     @total = 0
   end
 
