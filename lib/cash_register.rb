@@ -8,4 +8,8 @@ class CashRegister
 
   def add_item(item, price, quantity=1)
     @total += (price*quantity).round(2)
+  end
+
+
+  
 end
