@@ -4,7 +4,7 @@ class CashRegister
   def initialize(customer = "non-employee")
     @total = 0
   end
-    
+
 
 
 end
